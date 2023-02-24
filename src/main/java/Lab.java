@@ -15,7 +15,9 @@ public class Lab {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){
-        return 0;
+        //return 0;
+
+        return(arr.length);
     }
 
 
@@ -27,7 +29,9 @@ public class Lab {
      * @return the element at index n of arr.
      */
     public int getNthElementOfArray(int[] arr, int n){
-        return 0;
+        //return 0;
+
+        return(arr[n]);
     }
 
     /**
@@ -40,6 +44,7 @@ public class Lab {
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
 
+       arr[n]=val;
     }
 
     /**
@@ -47,6 +52,8 @@ public class Lab {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){
-        return null;
+        //return null;
+       int[] newArry = new int[n];
+       return(newArry);
     }
 }
